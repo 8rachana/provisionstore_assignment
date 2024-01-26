@@ -18,12 +18,6 @@ const About = () => {
             the api's have been implemented
           </li>
         </ul>
-        <hr/>
-        Process to start the project:
-        <ul>
-          <li>Src has a folder called as components and services</li>
-          
-        </ul>
       </p>
     </div>
   );
