@@ -1,0 +1,65 @@
+.lg-pg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lg-form{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.lg-psbt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+  height: 40px;
+}
+.lg-input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.lg-input2 {
+  width: 100%;
+  padding: 4px;
+  margin: 8px 0;
+  border: none;
+  box-sizing: border-box;
+}
+.lg-input2:focus-visible,.lg-input:focus-visible,.toggle-button:focus-visible{
+  outline: none;
+}
+
+.toggle-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: black;
+  height: 36px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.lg-btn {
+  height: 40px;
+  width: 50%;
+  color: white;
+  background-color: #db4f4f;
+  border-radius: 6px;
+  border: 1px solid #db4f4f;
+  cursor: pointer;
+}
+.lg-btn:hover {
+  background-color: #45a049;
+  border: 1px solid #45a049;
+}

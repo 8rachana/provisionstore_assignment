@@ -1,0 +1,9 @@
+.abt-pg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  line-height: 1.6;
+}
